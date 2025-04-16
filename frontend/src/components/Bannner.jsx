@@ -3,7 +3,7 @@ import React from 'react'
 function Bannner() {
   return (
    <>
-   <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row'> 
+   <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'> 
       <div className=' w-full  md:w-1/2 mt-12 md:mt-32  order-2 md:order-1' >
          <div className='space-y-12 '>
          <h1 className='text-4xl '>Hello and welcome! <br></br>Step into discover something
@@ -36,7 +36,7 @@ function Bannner() {
       <div className='w-full md:w-1/2 order-1 flex justify-center md:justify-end items-center'>
   <img
     src="https://img.freepik.com/free-photo/teenage-student-reading-book_23-2148204248.jpg?ga=GA1.1.716282614.1744783975&semt=ais_hybrid&w=740"
-    className="w-64 sm:w-80 md:w-[440px] h-auto pr-0 md:pr-6"
+    className="w-64 my-16 sm:w-80 md:w-[440px] h-auto pr-0 md:pr-6"
     alt=""
   />
 </div>
