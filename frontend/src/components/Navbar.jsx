@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
+   const[sticky,setSticky]=useState(false);
+   
     const Navitem=(<>
           <li>
          <a>Home</a>
@@ -16,9 +18,10 @@ const Navbar = () => {
        </li>
 
     </>
- )
+ );
+
   return (
-    <><div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
+    <><div className='max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0'>
       <div className="navbar bg-base-100 ">
   <div className="navbar-start">
     <div className="dropdown">
