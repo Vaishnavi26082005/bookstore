@@ -36,7 +36,7 @@ function Bannner() {
       <div className='w-full md:w-1/2 order-1 flex justify-center md:justify-end items-center'>
   <img
     src="https://img.freepik.com/free-photo/teenage-student-reading-book_23-2148204248.jpg?ga=GA1.1.716282614.1744783975&semt=ais_hybrid&w=740"
-    className="w-64 my-16 sm:w-80 md:w-[440px] h-auto pr-0 md:pr-6"
+    className="w-64 my-16 sm:w-80 md:w-[400px] h-auto pr-0 md:pr-6"
     alt=""
   />
 </div>
