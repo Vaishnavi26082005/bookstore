@@ -3,7 +3,7 @@ import React from 'react'
 function Bannner() {
   return (
    <>
-   <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'> 
+   <div className='max-w-screen-2xl container mt-12 mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'> 
       <div className=' w-full  md:w-1/2 mt-12 md:mt-32  order-2 md:order-1' >
          <div className='space-y-12 '>
          <h1 className='text-4xl '>Hello and welcome! <br></br>Step into discover something
@@ -14,7 +14,7 @@ function Bannner() {
              Vero magnam impedit quam optio, . Asperiores, mollitia 
             optio nemo quis ipsam soluta natus!
         </p>
-        <label className="input input-bordered flex items-center gap-2 w-full">
+        <label className="input input-bordered flex items-center gap-2 w-full dark:bg-slate-300 dark:text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
