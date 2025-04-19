@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import list from "../../public/list.json"
 import Cards from './Cards.jsx';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
@@ -57,7 +56,7 @@ function Freebook() {
           },
         ],
       };
-    const filterData=list.filter((data)=>data.category==="free");
+    const filterData=book.filter((data)=>data.category==="free");
     
     return (
         <>
@@ -73,7 +72,7 @@ function Freebook() {
     
             <div>
             <Slider {...settings}>
-  {book.map((item) => (
+  {filterData.map((item) => (
     <Cards item={item} key={item.id} />
   ))}
 </Slider>
